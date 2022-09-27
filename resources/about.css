@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+
+.content-about{
+    cursor: default;
+    grid-area: main;
+    padding: 10px;
+    margin: 0 60px 153px 60px;
+    display: grid;
+    row-gap: 30px;
+}
+
+.content-about hr{
+    width: 100%;
+    border-color: #ffffff33;
+}
+
+.about-text1 {
+    font-size: 60px;
+    color: #ffffff33;
+}
+
+.about-text1 > b {
+    color: #ffffff;
+}
+
+.about-text2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.about-text3{
+    color: #FF9C45;
+    font-size: 40px;
+}
+
+.experience-option{
+    margin: 20px 0 20px 0;
+}
+
+.exp-text-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.exp-text-wrapper svg{
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    margin-right: 10px;
+}
+
+.bar-container{
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    background-color: #303030;
+    border-radius: 10px;
+}
+
+#bar-nodejs{
+    width: 84%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #FF9C45;
+    animation: nodejs-bar-grow 0.5s ease-in-out;
+}
+
+#bar-python{
+    width: 45%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #FF9C45;
+    animation: python-bar-grow 0.5s ease-in-out;
+}
+
+#bar-java{
+    width: 33%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #FF9C45;
+    animation: java-bar-grow 0.5s ease-in-out;
+}
+
+#bar-c{
+    width: 27%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #FF9C45;
+    animation: c-bar-grow 0.5s ease-in-out;
+}
+
+.project-wrapper{
+    background-color: #00000033;
+    margin-top: 20px;
+    padding: 50px;
+    height: 500px;
+    border-radius: 30px;
+    display: grid;
+    text-align: center;
+}
+
+.project-text{
+    font-weight: bold;
+}
+
+/* ---------- Animation ---------- */
+
+@keyframes nodejs-bar-grow {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 84%;
+    }
+}
+
+@keyframes python-bar-grow {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes java-bar-grow {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 33%;
+    }
+}
+
+@keyframes c-bar-grow {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 27%;
+    }
+}

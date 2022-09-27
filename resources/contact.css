@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+
+.content-contact {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 10% 0 10%;
+    height: 100%;
+    grid-area: main;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-contact span{
+    cursor: default;
+}
+
+.contact-text1 {
+    font-size: 60px;
+}
+
+.contact-text2 {
+    font-size: 47px;
+    color: #ffffff33;
+}
+
+.contact-text2 > b {
+    color: #FF9C45;
+}
+
+form {
+    margin-bottom: 80px;
+}
+
+.input-wrapper{
+    text-align: left;
+    width: 100%;
+}
+
+/* Error Message */
+.error-msg{
+    font-size: 15px;
+    color: #ff0033;
+}
+
+#name-wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 629.23px;
+}
+
+form input,
+form textarea{
+    font-size: 18px;
+    font-family: "Montserrat", "Arial";
+    width: 100%;
+    max-width: 629.23px;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: #00000033;
+    color: #ffffff;
+}
+
+form input{
+    height: 40px;
+}
+
+form textarea{
+    min-height: 40px;
+    min-width: 629.23px;
+    height: 200px;
+}
+
+form button{
+    cursor: pointer;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Montserrat", "Arial";
+    font-weight: bold;
+    background-color: #FF9C45;
+    color: #303030;
+    padding: 10px 40px 10px 40px;
+}
+
+form button:hover {
+    background-color: #ff8316;
+}
